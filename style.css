@@ -1,0 +1,329 @@
+
+
+/* bg color rgb(237, 120, 17)*/
+
+
+
+
+.nav-links{
+    display: flex; 
+    list-style: none;  
+    padding-top: 15px ; 
+    padding-bottom: 15px ;  
+    justify-content: center; 
+    align-items: center;   
+    width:100vw;
+    margin-right: 85px;
+}
+
+.nav-link{
+    padding-left: 20px; /* THIS WILL have spaces to the left of each link */
+    font-size: 27px;
+    float: right;
+    size:10px;
+    font-weight: 700;
+    font-family:'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif ;
+    color: white;   /* THIS WILL change color to white */
+}
+
+.nav-link:hover{
+    color: black; /* THIS WILL change color to yellow when we hover */
+}
+.navbar{
+        background-color: rgb(237, 120, 17);
+        /* width:max-content */
+
+}
+
+.header-heading{
+    font-family:'Paytone One', cursive;
+    font-size: 70px;
+}
+.header-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style:circle;
+        width: 100vw;
+        height: 60vh;
+        color: black;
+        padding-right: 390px;
+        padding-bottom: 100px;
+    }
+.header-content{
+    align-items: left;
+}
+    
+    .button-position{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px; 
+        padding-bottom: 20px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    header{
+        background-image: url("https://www.allthingssupplychain.com/wp-content/uploads/2021/05/GettyImages-1266958681-1-2048x1170.jpg");      
+        width:100vw;
+        height: calc(100vh - 27px);
+        background-size: cover;
+        background-position: 100%;
+    }
+
+#logo-img{
+    size: 10px;
+}
+.banner{
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 10px;
+  background-color:  rgb(237, 120, 17);
+}
+
+.slideshow{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;  /* The items are hidden one below the other*/
+}
+
+.slideshow-item {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  /*opacity: 0;*/
+  opacity: 0;
+  animation: cycleImages 51s infinite;
+}
+
+.slideshow-item:nth-child(1) {
+animation-delay: 0s;
+}
+.slideshow-item:nth-child(2){
+animation-delay: 10s;
+}
+.slideshow-item:nth-child(3) {
+animation-delay: 20s;
+}
+.slideshow-item:nth-child(4) {
+    animation-delay: 30s;
+    }
+.slideshow-item:nth-child(5) {
+        animation-delay: 40s;
+}
+
+.slideshow-item img{
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow-item-text{
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+    padding: 10rem Srem;
+}
+.slideshow-item-text h5{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+    }
+.slideshow-item-text p{
+
+    font-size: 1.6em;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+@keyframes cycleImages {
+    25%{
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+}
+
+
+   
+
+/* 2ND LAST INFO SECTION */
+
+
+.ticket-options{
+    background-color:rgb(237, 120, 17);
+    justify-content: center;
+    padding-bottom: 40px;
+    width:100vw;
+}
+
+.ticket-header{
+    padding-top: 20px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.ticket-text{
+    text-transform: uppercase;
+    padding-left: 60px;
+    font-size: 70px;
+    padding-top: 20px;
+    
+    font-family: 'Rubik Moonrocks',cursive;
+    /* font-stretch: expanded; */
+}
+.ticket-subtext{
+    padding-top: 10px;
+    padding-left: 80px;
+    /* font-size: 15px;  */
+    font-family: 'Roboto', sans-serif;
+    /* font-stretch: ultra-condensed; */
+    
+}
+
+
+/*DRopdown menu*/
+
+
+#dropdownMenu2{
+    margin-top: 60px;
+    padding-top: 20px;
+    background-color:rgb(237, 120, 17) ;
+    padding-bottom: 20px;
+    border-radius: 205px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+#dropdownMenu2:hover{
+    color: black; 
+}
+
+.dd-txt{
+    margin-top: 5px;
+    display: flex;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-weight: 200;
+    border: 2px black solid;
+    color:black;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    text-align: center;
+    height:0vh;
+}
+.p1{
+    font-weight: 800;
+    font-size:30px;
+}
+.p2{
+    color:rgb(237, 120, 17);
+    font-weight: 500;
+
+}
+
+
+.options{
+    display: inline-flex;
+    padding-left: 60px;
+    /* border: 5px pink solid; */
+    margin-top:20px;
+    margin-left:180px;
+    padding-top:20px;
+    
+}
+
+.options-text{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+.tickets{
+    display: grid;
+    border-radius: 25px;
+    background-color: white;
+    justify-content: center;
+    margin-left: 40px;
+    text-align: center;
+    grid-template-columns: 300px;
+    grid-template:400px auto;
+    grid-template-rows: 80px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    margin-right:30px;
+    height: 50vh;
+    
+}
+.ticket-price{
+    color:#F633A2;
+    font-size: 49px;
+}
+
+
+
+
+
+
+
+
+
+.icons{
+    size:50px;
+    font-size:50px;
+    margin-bottom:0px;
+
+}
+.i{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+
+.footer{
+    color: white;
+    background-color: black;
+    padding-top: 8px;
+    margin-left:0px;
+    border:3px black solid;
+    padding-left:728px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width:100vw;
+}
+
+.logos{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-bottom:15px;
+}
+
+/*font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Moonrocks', cursive;*/
